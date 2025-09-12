@@ -1,0 +1,38 @@
+# Harvard Data Science Master's: Road Safety Modeling
+
+This project applies machine learning and deep learning models to analyze U.S. traffic data, predicting accident risk and severity. Using techniques like random forests and TensorFlow, it identifies key factors such as vehicle age, safety features, speed limits, and road lighting that influence crash outcomes.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.10+
+- Git
+
+### Installation
+```bash
+git clone https://github.com/sromee/road_safety.git
+cd road-safety/
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Usage
+Run the files in this order:
+
+FARS_Initial_EDA_3-11-24.ipynb
+FARS_Lin_Reg_Models_3-14-24.ipynb
+FARS_Rand_For_Models_3-15-24.ipynb
+FARS_SMOTE_Models_4-8-24.ipynb
+FARS_Non_SMOTE_Models_4-8-24.ipynb
+FARS_More_EDA_4-23-24.ipynb
+CRSS_EDA_Plus_Models_4-29-24.ipynb
+
+Data:
+The FARS datafiles are included in the repo & were generated in the FARS_Initial_EDA_3-11-24.ipynb file. The original data file used to create these FARS 6 data files is no longer available. The CRSS data file used for the CRSS_EDA_Plus_Models_4-29-24.ipynb is no longer available. But, the 6 data files provided here will make it possible to run every other file in this repo.
+
+## License
+- Code is licensed under [GPL v3](./LICENSE).
+- Data files are licensed under [CC BY 4.0](./LICENSE_DATA).
+
