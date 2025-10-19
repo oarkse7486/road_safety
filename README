@@ -1,4 +1,4 @@
-# Harvard Data Science Master's: Road Safety Modeling
+Omkar Sreekanth — Harvard data science project exploring machine learning methods.
 
 This project applies machine learning and deep learning models to analyze U.S. traffic data, predicting accident risk and severity. Using techniques like random forests and TensorFlow, it identifies key factors such as vehicle age, safety features, speed limits, and road lighting that influence crash outcomes.
 
